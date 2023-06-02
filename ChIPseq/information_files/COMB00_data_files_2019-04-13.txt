@@ -1,0 +1,279 @@
+Fastq_name	target	sple_info	experiment	type	otherID	sampleID	tissue	factor	condition	treatment	replicate	pair_ended	shortLabel	longLabel	TH_type	visibility	colorR	colorG	colorB	maxHeightPixels	autoScale	viewLimits_low	viewLimits_high	priority	windowingFunction
+
+# NKX2.1																									
+
+SRR4035318.fastq.gz	NKX2.1_E13.5	NKX2.1_BG_E13.5_ChIP_SRR4035318_rep1	NKX190301-1	ChIP	SRR4035318	NKX2.1_BG_E13.5_ChIP_SRR4035318_rep1	BG	NKX2.1	WT	E13.5	1	no	NKX2.1_BG_E13.5_ChIP_SRR4035318_rep1	NKX2.1_BG_E13.5_ChIP_SRR4035318_rep1	bigWig	full	255	128	0	50	on	0	50	70001	mean
+
+SRR4035321.fastq.gz	NKX2.1_E13.5	NKX2.1_BG_E13.5_Input_SRR4035321_rep1	NKX190301-1	Input	SRR4035321	NKX2.1_BG_E13.5_Input_SRR4035321_rep1	BG	NKX2.1	WT	E13.5	1	no	NKX2.1_BG_E13.5_Input_SRR4035321_rep1	NKX2.1_BG_E13.5_Input_SRR4035321_rep1	bigWig	full	255	128	0	50	on	0	50	70002	
+
+																									
+
+SRR4035319.fastq.gz	NKX2.1_E13.5	NKX2.1_BG_E13.5_ChIP_SRR4035319_rep2	NKX190301-2	ChIP	SRR4035319	NKX2.1_BG_E13.5_ChIP_SRR4035319_rep2	BG	NKX2.1	WT	E13.5	2	no	NKX2.1_BG_E13.5_ChIP_SRR4035319_rep2	NKX2.1_BG_E13.5_ChIP_SRR4035319_rep2	bigWig	full	255	128	0	50	on	0	50	70004	mean
+
+SRR4035322.fastq.gz	NKX2.1_E13.5	NKX2.1_BG_E13.5_Input_SRR4035322_rep2	NKX190301-2	Input	SRR4035322	NKX2.1_BG_E13.5_Input_SRR4035322_rep2	BG	NKX2.1	WT	E13.5	2	no	NKX2.1_BG_E13.5_Input_SRR4035322_rep2	NKX2.1_BG_E13.5_Input_SRR4035322_rep2	bigWig	full	255	128	0	50	on	0	50	70005	
+
+																									
+
+SRR4035320.fastq.gz	NKX2.1_E13.5	NKX2.1_BG_E13.5_ChIP_SRR4035320_rep3	NKX190301-3	ChIP	SRR4035320	NKX2.1_BG_E13.5_ChIP_SRR4035320_rep3	BG	NKX2.1	WT	E13.5	3	no	NKX2.1_BG_E13.5_ChIP_SRR4035320_rep3	NKX2.1_BG_E13.5_ChIP_SRR4035320_rep3	bigWig	full	255	128	0	50	on	0	50	70007	mean
+
+SRR4035323.fastq.gz	NKX2.1_E13.5	NKX2.1_BG_E13.5_Input_SRR4035323_rep3	NKX190301-3	Input	SRR4035323	NKX2.1_BG_E13.5_Input_SRR4035323_rep3	BG	NKX2.1	WT	E13.5	3	no	NKX2.1_BG_E13.5_Input_SRR4035323_rep3	NKX2.1_BG_E13.5_Input_SRR4035323_rep3	bigWig	full	255	128	0	50	on	0	50	70008	
+
+																									
+
+# LHX6																									
+
+SRR4035327.fastq.gz	LHX6_E13.5	LHX6_BG_E13.5_ChIP_SRR4035327_rep1	NKX190301-4	ChIP	SRR4035327	LHX6_BG_E13.5_ChIP_SRR4035327_rep1	BG	LHX6	WT	E13.5	1	no	LHX6_BG_E13.5_ChIP_SRR4035327_rep1	LHX6_BG_E13.5_ChIP_SRR4035327_rep1	bigWig	full	255	128	0	50	on	0	50	70011	mean
+
+SRR4035330.fastq.gz	LHX6_E13.5	LHX6_BG_E13.5_Input_SRR4035330_rep1	NKX190301-4	Input	SRR4035330	LHX6_BG_E13.5_Input_SRR4035330_rep1	BG	LHX6	WT	E13.5	1	no	LHX6_BG_E13.5_Input_SRR4035330_rep1	LHX6_BG_E13.5_Input_SRR4035330_rep1	bigWig	full	255	128	0	50	on	0	50	70012	
+
+																									
+
+SRR4035328.fastq.gz	LHX6_E13.5	LHX6_BG_E13.5_ChIP_SRR4035328_rep2	NKX190301-5	ChIP	SRR4035328	LHX6_BG_E13.5_ChIP_SRR4035328_rep2	BG	LHX6	WT	E13.5	2	no	LHX6_BG_E13.5_ChIP_SRR4035328_rep2	LHX6_BG_E13.5_ChIP_SRR4035328_rep2	bigWig	full	255	128	0	50	on	0	50	70014	mean
+
+SRR4035331.fastq.gz	LHX6_E13.5	LHX6_BG_E13.5_Input_SRR4035331_rep2	NKX190301-5	Input	SRR4035331	LHX6_BG_E13.5_Input_SRR4035331_rep2	BG	LHX6	WT	E13.5	2	no	LHX6_BG_E13.5_Input_SRR4035331_rep2	LHX6_BG_E13.5_Input_SRR4035331_rep2	bigWig	full	255	128	0	50	on	0	50	70015	
+
+																									
+
+SRR4035329.fastq.gz	LHX6_E13.5	LHX6_BG_E13.5_ChIP_SRR4035329_rep3	NKX190301-6	ChIP	SRR4035329	LHX6_BG_E13.5_ChIP_SRR4035329_rep3	BG	LHX6	WT	E13.5	3	no	LHX6_BG_E13.5_ChIP_SRR4035329_rep3	LHX6_BG_E13.5_ChIP_SRR4035329_rep3	bigWig	full	255	128	0	50	on	0	50	70017	mean
+
+SRR4035332.fastq.gz	LHX6_E13.5	LHX6_BG_E13.5_Input_SRR4035332_rep3	NKX190301-6	Input	SRR4035332	LHX6_BG_E13.5_Input_SRR4035332_rep3	BG	LHX6	WT	E13.5	3	no	LHX6_BG_E13.5_Input_SRR4035332_rep3	LHX6_BG_E13.5_Input_SRR4035332_rep3	bigWig	full	255	128	0	50	on	0	50	70018	
+
+																									
+
+# ARX																									
+
+Arx_BG_e13-5_ChIP_ChIP_rep1_R1.fastq.gz	ARX_E13.5	ARX_BG_E13.5_ChIP_R1_rep1	ARX190301-1	ChIP	R1	ARX_BG_E13.5_ChIP_R1_rep1	BG	ARX	WT	E13.5	1	no	ARX_BG_E13.5_ChIP_R1_rep1	ARX_BG_E13.5_ChIP_R1_rep1	bigWig	full	255	128	0	50	on	0	50	70096	mean
+
+Arx_BG_e13-5_ChIP_input_rep1_R1.fastq.gz	ARX_E13.5	ARX_BG_E13.5_Input_R1_rep1	ARX190301-1	Input	R1	ARX_BG_E13.5_Input_R1_rep1	BG	ARX	WT	E13.5	1	no	ARX_BG_E13.5_Input_R1_rep1	ARX_BG_E13.5_Input_R1_rep1	bigWig	full	255	128	0	50	on	0	50	70097	
+
+																									
+
+Arx_BG_e13-5_ChIP_ChIP_rep2_R1.fastq.gz	ARX_E13.5	ARX_BG_E13.5_ChIP_R1_rep2	ARX190301-2	ChIP	R1	ARX_BG_E13.5_ChIP_R1_rep2	BG	ARX	WT	E13.5	2	no	ARX_BG_E13.5_ChIP_R1_rep2	ARX_BG_E13.5_ChIP_R1_rep2	bigWig	full	255	128	0	50	on	0	50	70099	mean
+
+Arx_BG_e13-5_ChIP_input_rep2_R1.fastq.gz	ARX_E13.5	ARX_BG_E13.5_Input_R1_rep2	ARX190301-2	Input	R1	ARX_BG_E13.5_Input_R1_rep2	BG	ARX	WT	E13.5	2	no	ARX_BG_E13.5_Input_R1_rep2	ARX_BG_E13.5_Input_R1_rep2	bigWig	full	255	128	0	50	on	0	50	70100	
+
+																									
+
+Arx_BG_e13-5_ChIP_merged_R1.fastq.gz	ARX_E13.5	ARX_BG_E13.5_ChIP_rep.mrgd	ARX190301-2	ChIP		ARX_BG_E13.5_ChIP_rep.mrgd	BG	ARX	WT	E13.5	.mrgd	no	ARX_BG_E13.5_ChIP_rep.mrgd	ARX_BG_E13.5_ChIP_rep.mrgd	bigWig	full	255	128	0	50	on	0	50	70102	mean
+
+Arx_BG_e13-5_Input_merged_R1.fastq.gz	ARX_E13.5	ARX_BG_E13.5_Input_rep.mrgd	ARX190301-2	Input		ARX_BG_E13.5_Input_rep.mrgd	BG	ARX	WT	E13.5	.mrgd	no	ARX_BG_E13.5_Input_rep.mrgd	ARX_BG_E13.5_Input_rep.mrgd	bigWig	full	255	128	0	50	on	0	50	70103	
+
+																									
+
+Arx_BG_e13-5_ChIP_rep3_R1.fastq.gz	ARX_E13.5	ARX_BG_E13.5_ChIP_rep3	ARX190301-2	ChIP		ARX_BG_E13.5_ChIP_rep3	BG	ARX	WT	E13.5	3	no	ARX_BG_E13.5_ChIP_rep3	ARX_BG_E13.5_ChIP_rep3	bigWig	full	255	128	0	50	on	0	50	70105	mean
+
+Arx_BG_e13-5_Input_rep3_R1.fastq.gz	ARX_E13.5	ARX_BG_E13.5_Input_rep3	ARX190301-2	Input		ARX_BG_E13.5_Input_rep3	BG	ARX	WT	E13.5	3	no	ARX_BG_E13.5_Input_rep3	ARX_BG_E13.5_Input_rep3	bigWig	full	255	128	0	50	on	0	50	70106	
+
+																									
+
+Arx_BG_e13-5_ChIP_rep4_R1.fastq.gz	ARX_E13.5	ARX_BG_E13.5_ChIP_rep4	ARX190301-2	ChIP		ARX_BG_E13.5_ChIP_rep4	BG	ARX	WT	E13.5	4	no	ARX_BG_E13.5_ChIP_rep4	ARX_BG_E13.5_ChIP_rep4	bigWig	full	255	128	0	50	on	0	50	70108	mean
+
+Arx_BG_e13-5_Input_rep4_R1.fastq.gz	ARX_E13.5	ARX_BG_E13.5_Input_rep4	ARX190301-2	Input		ARX_BG_E13.5_Input_rep4	BG	ARX	WT	E13.5	4	no	ARX_BG_E13.5_Input_rep4	ARX_BG_E13.5_Input_rep4	bigWig	full	255	128	0	50	on	0	50	70109	
+
+																									
+
+# DLX1																									
+
+Dlx1_BG_e13-5_ChIP_rep1.fastq.gz	DLX1_E13.5	DLX1_BG_E13.5_ChIP_repO1	DLX190407-1	ChIP		DLX1_BG_E13.5_ChIP_repO1	BG	DLX1	WT	E13.5	O1	no	DLX1_BG_E13.5_ChIP_repO1	DLX1_BG_E13.5_ChIP_repO1	bigWig	full	255	128	0	50	on	0	50	70112	mean
+
+Dlx1_Dlx5_BG_e13-5_Input_rep1.fastq.gz	DLX1_E13.5	DLX1_BG_E13.5_Input_repO1	DLX190407-1	Input		DLX1_BG_E13.5_Input_repO1	BG	DLX1	WT	E13.5	O1	no	DLX1_BG_E13.5_Input_repO1	DLX1_BG_E13.5_Input_repO1	bigWig	full	255	128	0	50	on	0	50	70113	
+
+																									
+
+Dlx1_BG_e13-5_ChIP_rep2.fastq.gz	DLX1_E13.5	DLX1_BG_E13.5_ChIP_repO3	DLX190407-2	ChIP		DLX1_BG_E13.5_ChIP_repO3	BG	DLX1	WT	E13.5	O3	no	DLX1_BG_E13.5_ChIP_repO3	DLX1_BG_E13.5_ChIP_repO3	bigWig	full	255	128	0	50	on	0	50	70115	mean
+
+Dlx5_BG_e13-5_Input_rep2.fastq.gz	DLX1_E13.5	DLX1_BG_E13.5_Input_repO3	DLX190407-2	Input		DLX1_BG_E13.5_Input_repO3	BG	DLX1	WT	E13.5	O3	no	DLX1_BG_E13.5_Input_repO3	DLX1_BG_E13.5_Input_repO3	bigWig	full	255	128	0	50	on	0	50	70116	
+
+																									
+
+Dlx1_BG_e13-5_ChIP_rep3.fastq.gz	DLX1_E13.5	DLX1_BG_E13.5_ChIP_repN1	DLX190407-3	ChIP		DLX1_BG_E13.5_ChIP_repN1	BG	DLX1	WT	E13.5	N1	no	DLX1_BG_E13.5_ChIP_repN1	DLX1_BG_E13.5_ChIP_repN1	bigWig	full	255	128	0	50	on	0	50	70118	mean
+
+Dlx1_Dlx5_BG_e13-5_input_rep3.fastq.gz	DLX1_E13.5	DLX1_BG_E13.5_Input_repN1	DLX190407-3	Input		DLX1_BG_E13.5_Input_repN1	BG	DLX1	WT	E13.5	N1	no	DLX1_BG_E13.5_Input_repN1	DLX1_BG_E13.5_Input_repN1	bigWig	full	255	128	0	50	on	0	50	70119	
+
+																									
+
+Dlx1-ChIP_BG_e13_Rep4_S124_L008_R1_001.fastq.gz	DLX1_E13.5	DLX1_BG_E13.5_ChIP_repN4	DLX190407-4	ChIP		DLX1_BG_E13.5_ChIP_repN4	BG	DLX1	WT	E13.5	N4	no	DLX1_BG_E13.5_ChIP_repN4	DLX1_BG_E13.5_ChIP_repN4	bigWig	full	255	128	0	50	on	0	50	70121	mean
+
+Dlx1-Input_BG_e13_Rep4_S123_L008_R1_001.fastq.gz	DLX1_E13.5	DLX1_BG_E13.5_Input_repN4	DLX190407-4	Input		DLX1_BG_E13.5_Input_repN4	BG	DLX1	WT	E13.5	N4	no	DLX1_BG_E13.5_Input_repN4	DLX1_BG_E13.5_Input_repN4	bigWig	full	255	128	0	50	on	0	50	70122	
+
+																									
+
+# DLX2																									
+
+Dlx2-BG-e13_S78_L008_R1_001.fastq.gz	DLX2_E13.5	DLX2_BG_E13.5_ChIP_repN1	DLX190407-5	ChIP		DLX2_BG_E13.5_ChIP_repN1	BG	DLX2	WT	E13.5	N1	no	DLX2_BG_E13.5_ChIP_repN1	DLX2_BG_E13.5_ChIP_repN1	bigWig	full	255	128	0	50	on	0	50	70125	mean
+
+Input-Dlx2-BG-e13_S77_L008_R1_001.fastq.gz	DLX2_E13.5	DLX2_BG_E13.5_Input_repN1	DLX190407-5	Input		DLX2_BG_E13.5_Input_repN1	BG	DLX2	WT	E13.5	N1	no	DLX2_BG_E13.5_Input_repN1	DLX2_BG_E13.5_Input_repN1	bigWig	full	255	128	0	50	on	0	50	70126	
+
+																									
+
+Dlx2_BG_e13.5_ChIP_merged.fastq.gz	DLX2_E13.5	DLX2_BG_E13.5_ChIP_repO1	DLX190407-6	ChIP		DLX2_BG_E13.5_ChIP_repO1	BG	DLX2	WT	E13.5	O1	no	DLX2_BG_E13.5_ChIP_repO1	DLX2_BG_E13.5_ChIP_repO1	bigWig	full	255	128	0	50	on	0	50	70128	mean
+
+Dlx2_BG_e13.5_Input_merged.fastq.gz	DLX2_E13.5	DLX2_BG_E13.5_Input_repO1	DLX190407-6	Input		DLX2_BG_E13.5_Input_repO1	BG	DLX2	WT	E13.5	O1	no	DLX2_BG_E13.5_Input_repO1	DLX2_BG_E13.5_Input_repO1	bigWig	full	255	128	0	50	on	0	50	70129	
+
+																									
+
+Dlx2_BG_e13-5_ChIP_rep1_R1.fastq.gz	DLX2_E13.5	DLX2_BG_E13.5_ChIP_repO1a	DLX190407-6a	ChIP		DLX2_BG_E13.5_ChIP_repO1a	BG	DLX2	WT	E13.5	O1a	no	DLX2_BG_E13.5_ChIP_repO1a	DLX2_BG_E13.5_ChIP_repO1a	bigWig	full	255	128	0	50	on	0	50	70130	mean
+
+Dlx2_BG_e13-5_Input_rep1_R1.fastq.gz	DLX2_E13.5	DLX2_BG_E13.5_Input_repO1a	DLX190407-6a	Input		DLX2_BG_E13.5_Input_repO1a	BG	DLX2	WT	E13.5	O1a	no	DLX2_BG_E13.5_Input_repO1a	DLX2_BG_E13.5_Input_repO1a	bigWig	full	255	128	0	50	on	0	50	70131	
+
+																									
+
+Dlx2_BG_e13-5_ChIP_rep2_R1.fastq.gz	DLX2_E13.5	DLX2_BG_E13.5_ChIP_repO1b	DLX190407-6b	ChIP		DLX2_BG_E13.5_ChIP_repO1b	BG	DLX2	WT	E13.5	O1b	no	DLX2_BG_E13.5_ChIP_repO1b	DLX2_BG_E13.5_ChIP_repO1b	bigWig	full	255	128	0	50	on	0	50	70134	mean
+
+Dlx2_BG_e13-5_Input_rep2_R1.fastq.gz	DLX2_E13.5	DLX2_BG_E13.5_Input_repO1b	DLX190407-6b	Input		DLX2_BG_E13.5_Input_repO1b	BG	DLX2	WT	E13.5	O1b	no	DLX2_BG_E13.5_Input_repO1b	DLX2_BG_E13.5_Input_repO1b	bigWig	full	255	128	0	50	on	0	50	70137	
+
+																									
+
+Dlx2_BG_e13-5_ChIP_rep3_R1.fastq.gz	DLX2_E13.5	DLX2_BG_E13.5_ChIP_repO1c	DLX190407-6c	ChIP		DLX2_BG_E13.5_ChIP_repO1c	BG	DLX2	WT	E13.5	O1c	no	DLX2_BG_E13.5_ChIP_repO1c	DLX2_BG_E13.5_ChIP_repO1c	bigWig	full	255	128	0	50	on	0	50	70140	mean
+
+Dlx2_BG_e13-5_Input_rep3_R1.fastq.gz	DLX2_E13.5	DLX2_BG_E13.5_Input_repO1c	DLX190407-6c	Input		DLX2_BG_E13.5_Input_repO1c	BG	DLX2	WT	E13.5	O1c	no	DLX2_BG_E13.5_Input_repO1c	DLX2_BG_E13.5_Input_repO1c	bigWig	full	255	128	0	50	on	0	50	70141	
+
+																									
+
+# DLX5																									
+
+Dlx5_BG_e13-5_ChIP_rep1.fastq.gz	DLX5_E13.5	DLX5_BG_E13.5_ChIP_repO1	DLX190407-7	ChIP		DLX5_BG_E13.5_ChIP_repO1	BG	DLX5	WT	E13.5	O1	no	DLX5_BG_E13.5_ChIP_repO1	DLX5_BG_E13.5_ChIP_repO1	bigWig	full	255	128	0	50	on	0	50	70132	mean
+
+Dlx1_Dlx5_BG_e13-5_Input_rep1.fastq.gz	DLX5_E13.5	DLX5_BG_E13.5_Input_repO1	DLX190407-7	Input		DLX5_BG_E13.5_Input_repO1	BG	DLX5	WT	E13.5	O1	no	DLX5_BG_E13.5_Input_repO1	DLX5_BG_E13.5_Input_repO1	bigWig	full	255	128	0	50	on	0	50	70133	
+
+																									
+
+ChIP-Dlx5_CCTCGG_L002_R1.fastq.gz	DLX5_E13.5	DLX5_BG_E13.5_ChIP_repO2	DLX190407-8	ChIP		DLX5_BG_E13.5_ChIP_repO2	BG	DLX5	WT	E13.5	O2	no	DLX5_BG_E13.5_ChIP_repO2	DLX5_BG_E13.5_ChIP_repO2	bigWig	full	255	128	0	50	on	0	50	70135	mean
+
+Dlx1_Dlx5_BG_e13-5_Input_rep1.fastq.gz	DLX5_E13.5	DLX5_BG_E13.5_Input_repO2	DLX190407-8	Input		DLX5_BG_E13.5_Input_repO2	BG	DLX5	WT	E13.5	O2	no	DLX5_BG_E13.5_Input_repO2	DLX5_BG_E13.5_Input_repO2	bigWig	full	255	128	0	50	on	0	50	70136	
+
+																									
+
+Dlx5-ChIP_BG_e13_Rep5_S127_L008_R1_001.fastq.gz	DLX5_E13.5	DLX5_BG_E13.5_ChIP_repN5	DLX190407-9	ChIP		DLX5_BG_E13.5_ChIP_repN5	BG	DLX5	WT	E13.5	N5	no	DLX5_BG_E13.5_ChIP_repN5	DLX5_BG_E13.5_ChIP_repN5	bigWig	full	255	128	0	50	on	0	50	70138	mean
+
+Dlx5-Input_BG_e13_Rep5_S126_L008_R1_001.fastq.gz	DLX5_E13.5	DLX5_BG_E13.5_Input_repN5	DLX190407-9	Input		DLX5_BG_E13.5_Input_repN5	BG	DLX5	WT	E13.5	N5	no	DLX5_BG_E13.5_Input_repN5	DLX5_BG_E13.5_Input_repN5	bigWig	full	255	128	0	50	on	0	50	70139	
+
+																									
+
+# SP9																									
+
+SP9-BG-e13_S87_L008_R1_001.fastq.gz	SP9_E13.5	SP9_BG_E13.5_ChIP_repN1	DLX190407-10	ChIP		SP9_BG_E13.5_ChIP_repN1	BG	SP9	WT	E13.5	N1	no	SP9_BG_E13.5_ChIP_repN1	SP9_BG_E13.5_ChIP_repN1	bigWig	full	255	128	0	50	on	0	50	70142	mean
+
+Input-SP9-BG-e13_S86_L008_R1_001.fastq.gz	SP9_E13.5	SP9_BG_E13.5_Input_repN1	DLX190407-10	Input		SP9_BG_E13.5_Input_repN1	BG	SP9	WT	E13.5	N1	no	SP9_BG_E13.5_Input_repN1	SP9_BG_E13.5_Input_repN1	bigWig	full	255	128	0	50	on	0	50	70143	
+
+																									
+
+SP9-ChIP_BG_e13_S151_L006_R1_001.fastq.gz	SP9_E13.5	SP9_BG_E13.5_ChIP_repN2	DLX190407-11	ChIP		SP9_BG_E13.5_ChIP_repN2	BG	SP9	WT	E13.5	N2	no	SP9_BG_E13.5_ChIP_repN2	SP9_BG_E13.5_ChIP_repN2	bigWig	full	255	128	0	50	on	0	50	70145	mean
+
+SP9-input_BG_e13_S150_L006_R1_001.fastq.gz	SP9_E13.5	SP9_BG_E13.5_Input_repN2	DLX190407-11	Input		SP9_BG_E13.5_Input_repN2	BG	SP9	WT	E13.5	N2	no	SP9_BG_E13.5_Input_repN2	SP9_BG_E13.5_Input_repN2	bigWig	full	255	128	0	50	on	0	50	70146	
+
+																									
+
+SP9-ChIP_BG_e13_rep3_S48_R1_001.fastq.gz	SP9_E13.5	SP9_BG_E13.5_ChIP_repN3	DLX190407-12	ChIP		SP9_BG_E13.5_ChIP_repN3	BG	SP9	WT	E13.5	N3	no	SP9_BG_E13.5_ChIP_repN3	SP9_BG_E13.5_ChIP_repN3	bigWig	full	255	128	0	50	on	0	50	70148	mean
+
+input_BG_e13_SP9_rep3_S47_R1_001.fastq.gz	SP9_E13.5	SP9_BG_E13.5_Input_repN3	DLX190407-12	Input		SP9_BG_E13.5_Input_repN3	BG	SP9	WT	E13.5	N3	no	SP9_BG_E13.5_Input_repN3	SP9_BG_E13.5_Input_repN3	bigWig	full	255	128	0	50	on	0	50	70149	
+
+																									
+
+# RBBP4																									
+
+Rbb_S1_L001_R1_001.fastq.gz	RBBP4_E13.5	RBBP4_BG_E13.5_ChIP_repN1	DLX190407-13	ChIP		RBBP4_BG_E13.5_ChIP_repN1	BG	RBBP4	WT	E13.5	N1	no	RBBP4_BG_E13.5_ChIP_repN1	RBBP4_BG_E13.5_ChIP_repN1	bigWig	full	255	128	0	50	on	0	50	70152	mean
+
+Input_S3_L001_R1_001.fastq.gz	RBBP4_E13.5	RBBP4_BG_E13.5_Input_repN1	DLX190407-13	Input		RBBP4_BG_E13.5_Input_repN1	BG	RBBP4	WT	E13.5	N1	no	RBBP4_BG_E13.5_Input_repN1	RBBP4_BG_E13.5_Input_repN1	bigWig	full	255	128	0	50	on	0	50	70153	
+
+																									
+
+# PBX1																									
+
+SLL10_bc10_CACACA_L006_R1_001.fastq.gz	PBX1_E13.5	PBX1_BG_E13.5_ChIP_rep1	DLX190407-14	ChIP		PBX1_BG_E13.5_ChIP_rep1	BG	PBX1	WT	E13.5	1	no	PBX1_BG_E13.5_ChIP_rep1	PBX1_BG_E13.5_ChIP_rep1	bigWig	full	255	128	0	50	on	0	50	70160	mean
+
+SLL10_bc09_ACACGA_L006_R1_001.fastq.gz	PBX1_E13.5	PBX1_BG_E13.5_Input_rep1	DLX190407-14	Input		PBX1_BG_E13.5_Input_rep1	BG	PBX1	WT	E13.5	1	no	PBX1_BG_E13.5_Input_rep1	PBX1_BG_E13.5_Input_rep1	bigWig	full	255	128	0	50	on	0	50	70161	
+
+																									
+
+# NR2F1																									
+
+SLL8_bc02_CCTTCA_L001_R1_001.fastq.gz	NR2F1_E13.5	NR2F1_BG_E13.5_ChIP_rep1	DLX190407-15	ChIP		NR2F1_BG_E13.5_ChIP_rep1	BG	NR2F1	WT	E13.5	1	no	NR2F1_BG_E13.5_ChIP_rep1	NR2F1_BG_E13.5_ChIP_rep1	bigWig	full	255	128	0	50	on	0	50	70164	mean
+
+SLL8_bc01_AAGGGA_L001_R1_001.fastq.gz	NR2F1_E13.5	NR2F1_BG_E13.5_Input_rep1	DLX190407-15	Input		NR2F1_BG_E13.5_Input_rep1	BG	NR2F1	WT	E13.5	1	no	NR2F1_BG_E13.5_Input_rep1	NR2F1_BG_E13.5_Input_rep1	bigWig	full	255	128	0	50	on	0	50	70165	
+
+																									
+
+# OTX2																									
+
+OTX2_BG_E13.5_ChIP_RD_rep1.fastq.gz	OTX2_E13.5	OTX2_BG_E13.5_ChIP_rep1	DLX190407-16	ChIP		OTX2_BG_E13.5_ChIP_rep1	BG	OTX2	WT	E13.5	1	no	OTX2_BG_E13.5_ChIP_rep1	OTX2_BG_E13.5_ChIP_rep1	bigWig	full	255	128	0	50	on	0	50	70168	mean
+
+OTX2_BG_E13.5_Input_RD_rep1.fastq.gz	OTX2_E13.5	OTX2_BG_E13.5_Input_rep1	DLX190407-16	Input		OTX2_BG_E13.5_Input_rep1	BG	OTX2	WT	E13.5	1	no	OTX2_BG_E13.5_Input_rep1	OTX2_BG_E13.5_Input_rep1	bigWig	full	255	128	0	50	on	0	50	70169	
+
+																									
+
+OTX2_BG_E13.5_ChIP_rep2.fastq.gz	OTX2_E13.5	OTX2_BG_E13.5_ChIP_rep2	DLX190407-17	ChIP		OTX2_BG_E13.5_ChIP_rep2	BG	OTX2	WT	E13.5	2	no	OTX2_BG_E13.5_ChIP_rep2	OTX2_BG_E13.5_ChIP_rep2	bigWig	full	255	128	0	50	on	0	50	70171	mean
+
+OTX2_BG_E13.5_Input_rep2.fastq.gz	OTX2_E13.5	OTX2_BG_E13.5_Input_rep2	DLX190407-17	Input		OTX2_BG_E13.5_Input_rep2	BG	OTX2	WT	E13.5	2	no	OTX2_BG_E13.5_Input_rep2	OTX2_BG_E13.5_Input_rep2	bigWig	full	255	128	0	50	on	0	50	70172	
+
+																									
+
+OTX2_BG_E13.5_ChIP_rep3.fastq.gz	OTX2_E13.5	OTX2_BG_E13.5_ChIP_rep3	DLX190407-18	ChIP		OTX2_BG_E13.5_ChIP_rep3	BG	OTX2	WT	E13.5	3	no	OTX2_BG_E13.5_ChIP_rep3	OTX2_BG_E13.5_ChIP_rep3	bigWig	full	255	128	0	50	on	0	50	70174	mean
+
+OTX2_BG_E13.5_Input_rep3.fastq.gz	OTX2_E13.5	OTX2_BG_E13.5_Input_rep3	DLX190407-18	Input		OTX2_BG_E13.5_Input_rep3	BG	OTX2	WT	E13.5	3	no	OTX2_BG_E13.5_Input_rep3	OTX2_BG_E13.5_Input_rep3	bigWig	full	255	128	0	50	on	0	50	70175	
+
+																									
+
+# MASH1																									
+
+SLL11_bc02_CCTTCA_L005_R1_001.fastq.gz	MASH1_E13.5	MASH1_BG_E13.5_ChIP_rep1	DLX190407-19	ChIP		MASH1_BG_E13.5_ChIP_rep1	BG	MASH1	WT	E13.5	1	no	MASH1_BG_E13.5_ChIP_rep1	MASH1_BG_E13.5_ChIP_rep1	bigWig	full	255	128	0	50	on	0	50	70178	mean
+
+SLL11_bc01_AAGGGA_L005_R1_001.fastq.gz	MASH1_E13.5	MASH1_BG_E13.5_Input_rep1	DLX190407-19	Input		MASH1_BG_E13.5_Input_rep1	BG	MASH1	WT	E13.5	1	no	MASH1_BG_E13.5_Input_rep1	MASH1_BG_E13.5_Input_rep1	bigWig	full	255	128	0	50	on	0	50	70179	
+
+																									
+
+# GSX2																									
+
+SLL11_bc05_AAGACG_L005_R1_001.fastq.gz	GSX2_E13.5	GSX2_BG_E13.5_ChIP_rep1	DLX190407-20	ChIP		GSX2_BG_E13.5_ChIP_rep1	BG	GSX2	WT	E13.5	1	no	GSX2_BG_E13.5_ChIP_rep1	GSX2_BG_E13.5_ChIP_rep1	bigWig	full	255	128	0	50	on	0	50	70182	mean
+
+SLL11_bc04_TTCAGC_L005_R1_001.fastq.gz	GSX2_E13.5	GSX2_BG_E13.5_Input_rep1	DLX190407-20	Input		GSX2_BG_E13.5_Input_rep1	BG	GSX2	WT	E13.5	1	no	GSX2_BG_E13.5_Input_rep1	GSX2_BG_E13.5_Input_rep1	bigWig	full	255	128	0	50	on	0	50	70183	
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									
+
+																									

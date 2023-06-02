@@ -1,0 +1,306 @@
+# Parameters to be used in the NordLab ChIP-seq data analysis pipeline
+# by Rinaldo Catta-Preta @ UC Davis (c) 2015
+
+# Please make sure to fillout all mandatory information listed below.
+# Do NOT change the field names. Filenames and directory names shall NOT contains spaces
+# Keep a ONE-space separation from the header of the files/directories inserted. Do NOT include tabs. 
+# End directory specifications with a slash (“/“).
+
+
+###########################################################################################################
+ 
+  GENERAL FILE PARAMETERS
+ 
+  This section contains information on raw data and reference file locations and directories to store the 
+  processed data. The first part contains the mandatory ones, without which the script cannot run. The
+  second part contains optional directory locations. If you leave them blank, the script will assign the 
+  default location.
+
+  Reference_organism shall be either mm for mouse or hs for human
+  Genome_version shall be just the numerical value, e.g. 9 for mm9, or 19 for hg19
+  
+  *** Mandatory ***
+
+> Dataset: /share/nordlab/users/rinaldo/chipseq/code/information_files/COMB00_data_files_2019-04-13.txt
+
+> Reference_organism: mm
+> Genome_version: 10
+
+> Reference_Genome: /share/nordlab/genomes/Mus_musculus/UCSC/mm10/Sequence/BWAIndex/version0.6.0/genome.fa
+> Reference_genome_bed_file: /share/nordlab/genomes/Mus_musculus/UCSC/mm10/Annotation/Genes/genes.bed
+> Reference_genome_chrom_sizes: /share/nordlab/libraries/externalDatasets/mm10/mm10.chrom.sizes
+> Refer_genome_chrom_directory: /share/nordlab/genomes/Mus_musculus/UCSC/mm10/Sequence/Chromosomes/
+> Blacklist_file: /share/nordlab/libraries/externalDatasets/mm10/mm10.blacklist.bed
+> Genes_GTF_file: /share/nordlab/genomes/Mus_musculus/UCSC/mm10/Annotation/Genes/genes.gtf
+> Genes_BED_file: /share/nordlab/genomes/Mus_musculus/UCSC/mm10/Annotation/Genes/genes.bed
+
+> PeakAnnotator_Directory: /share/nordlab/codes/chipseq/PeakAnnotator_Java_1.4/
+> Trackhubs_project_code_location: /share/nordlab/codes/UCSC_TrackHub
+> ChIPModule_code_location: /share/nordlab/codes/chipseq/ChIPModule/
+> hiddenDomains_code: /share/nordlab/codes/chipseq/hiddenDomains/
+
+> Raw_Data_Directory: /share/nordlab/rawdata/COMB00/ChIPseq/
+> Processed_File_Directory: /share/nordlab/users/rinaldo/COMB00/ChIPseq/
+ 
+  *** Optional ***
+
+> BWA_Data_Directory: 
+
+> MACS2_Data_Directory: 
+> ChIPQC_Directory: 
+> BayesPeak_Directory: 
+> Homer_Data_Directory: 
+> ChIPModule_Data_Directory: 
+> BDGdiff_Data_Directory: 
+> hiddenDomains_Data_Directory: 
+> DeepTools_Data_Directory: 
+
+ 
+###########################################################################################################
+###########################################################################################################
+  
+  ALIGNMENT PARAMETERS
+ 
+  This section contains BWA parameter settings. All of them shall have a value assigned. If 
+  in doubt, keep the default ones initially, and change them as needed afterwards.
+  
+  *** BWA ***
+  If you do not need to split the data set for alignment (due to temporary storage management), keep 
+  a 0 (zero) value on the Size_of_each_alignment_module field.
+ 
+> Realignment_Required?: no
+> Trim_read_files? yes
+> Size_of_each_alignment_module: 0
+> Quality_cutoff: 30
+
+ 
+###########################################################################################################
+###########################################################################################################
+  
+  PEAK CALLING PARAMETERS
+ 
+  This section contains MACS2 and BayesPeak parameter setting. Please note the following conventions 
+  for the various fields:
+  Options for No_of_dups_to_keep are numbers (1, 2, …), “auto” or “all”. Default is 1 (no dups)
+
+  >>>>>> A 0 (zero) value on the extsize_parameter field will disable macs2 --nomodel parameter <<<<<<<<
+         
+  >>>>>> If a p-value is set, it will be used instead of q-value <<<<<<<
+
+ 
+> New_Peak_Calls?: no
+
+
+  *** MACS2 ***
+
+> Run_MACS2_in_the_pipeline: no
+> Broad_peak_calling_cutoff: 0.1
+> q-value_cutoff(minimum_FDR): 0.1
+> p-value_cutoff: 0.0001
+> extsize_parameter: 200
+> use_background_as_local_lambda: yes
+> No_of_dups_to_keep: 1
+
+  *** MACS2 bdgdiff (differential peak calling) ***
+
+> Run_MACS2_bdgdiff_in_the_pipeline: yes
+> logLR_cutoff: 2
+> Min_length_of_diff_region: 350
+> Maximum_gap: 200
+> Sequ_depth_cond1: 1
+> Sequ_depth_cond2: 1
+
+
+  *** BayesPeak ***
+
+> Run_BayesPeak_in_the_pipeline: no
+> Lambda1_for_overfitting_call: 2.5
+> Call_thrsh_for_overfitting_call: 5
+
+
+  *** hiddenDomains ***
+
+> Run_hiddenDomains_in_the_pipeline: no
+> hiddenDomains_min_post_probability: 0.9
+> hiddenDomains_bin_width: 350
+
+
+ 
+###########################################################################################################
+###########################################################################################################
+  
+  QUALITY CONTROL PARAMETERS
+  
+  This section contains parameters for FASTQC (read QC) and ChIPQC (experiment QC). Options for the 
+  FacetBy_ChIPQC field are Treatment, Condition, Factor and/or Tissue. If multiple parameters are to 
+  be set, they must be separated by commas, no spaces, and each first letter must be upper case. Date
+  format is YYYY-MM-DD. Peak caller file formats are:
+             – “raw”: text file file; peak score is in fourth column 
+             – “bed”: .bed file; peak score is in fifth column
+             – “narrow”: default peak.format: narrowPeaks file
+             – “macs”: MACS .xls file
+             – “bayes”: bayesPeak file
+
+  
+  *** FASTQC ***
+
+> Run_FASTQC_in_the_pipeline: no
+
+> Re-Run_FASTQC?: no
+
+
+  *** ChIPQC ***
+
+> PeakCaller_file_format: narrow
+> FacetBy_ChIPQC: Factor,Treatment
+> colourBy: Replicate
+> No_random_datasets_for_overlap_p-value: 10000
+
+ 
+###########################################################################################################
+###########################################################################################################
+  
+  DOWNSTREAM ANALYSES
+
+  This section contains parameters for motif analyses on called ChIP-seq peaks. Date format is YYYY-MM-DD. 
+  Peak caller options are ‘MACS2’, ‘BayesPeak’ or ‘BOTH’. Sequence normalization options are: gc (GC% for 
+  sequence content normalization, default), cpg (CpG% for sequence content normalization), noweight (no CG 
+  correction). 
+  Enrichment scoring method options are binomial (default) or hypergeometric.
+
+  bam coverage comparisons can be made using the codes below. Multiple choices should be comma-separated, 
+  no spaces. If option 3 is selected, sample shall be specified in parenthesis (plus_sign(+)-separated), in the 
+  following order: experiment, factor, type, tissue, condition, treatment, replicate. 
+  ##### For example: 3(CHD81+H3K4me3+ChIP+whole_brain+WT+e13.5+1) #####
+
+  Codes for bam coverage comparisons:
+	1. versus Input/NegCtl
+	2. versus KO (knockout)
+	3. versus specific sample (specify)
+	4. all against all in the dataset (sequence at random)
+
+  Ratio types for comparisons are: log2, ratio, subtract, add, reciprocal_ratio, first, second
+  Normalization type options are: none, normalizeTo1x, normalizeUsingRPKM
+
+
+  *** BedTools (peak annotation) ***
+
+> Run_Bedtools_in_the_pipeline: no
+
+
+  *** PeakAnnotator (peak annotation) ***
+
+> Run_PeakAnnot_in_the_pipeline: no
+
+
+  *** bamCoverage and bamCompare ***
+
+> Run_DeepTools_in_the_pipeline: no
+
+> Run_Coverage: yes
+> Run_Compare: yes
+> Comparisons_to_make: 1
+> Pseudocount_value: 1
+> Ratio_type: log2
+> ignore_Duplicates: yes
+> Filter_blacklist: yes
+> Normalization_type: normalizeUsingRPKM
+> Extending_size: yes
+
+
+  *** HOMER (Motif Analysis) ***
+
+> Run_Homer_in_the_pipeline: no
+
+> Peak_caller: MACS2
+> Repeat_masked_sequences: yes
+> Region_size_upstream: 250
+> Region_size_downstream: 250
+> Remove_background_positions: no
+> Look_for_RNA_motiffs: no
+> File_of_known_motifs(if_existent): 
+> Enrichment_scoring_method: binomial
+> Sequence_normalization: gc
+> Bin_size_for_histogram: 10
+
+
+  *** ChIPModule (Motif Analysis) ***
+
+> Run_ChIPModule_in_the_pipeline: no
+
+> Motif_PWMs: default
+> Min_number_sequences: 10
+> ChIPmod_lambda_file: default
+> Bonferroni_corr_pvalue: 0.001
+> Output_format: xls
+> Detail_motif_combin_file: no
+
+
+
+#       --------------------
+  >>>>> RE-ANALYSIS SWITCHES <<<<< ***
+#       --------------------
+#       (Note: each individual module used in the re-analysis must be switched on above) 
+
+
+> Date_for_extra_analyses: 2020-01-14
+
+> Re-run_ChIPQC_on_called_peaks: no
+> Re-run_Bedtools_on_called_peaks: no
+> Re-run_PeakAnnot_on_called_peaks: no
+> Re-run_Homer_on_called_peaks: no
+> Re-run_ChIPModule_on_called_peaks: no
+> Re-run_bdgdiff_on_called_peaks: yes
+> Re-run_Deeptools: no
+
+ 
+###########################################################################################################
+###########################################################################################################
+  
+  TRACK HUB CREATION
+
+  This section contains information for the creation of track hubs to be visualized on the UCSC Genome 
+  Browser. Project_name is the track hub master name, and shall be related to the bioshare url it refers 
+  to. 
+
+> Create_track_hubs: no
+> Project_name: DlxPathway
+> Track_hub_name: Dlx_OLD_1
+> Bioshare_or_afs: afs
+> afs_url: /afs/genomecenter.ucdavis.edu/web/labs/nord/htdocs/DlxPathway/Round7
+> Bioshare_url: 
+> Manual_or_auto_scale: manual
+> Track_Hub_styles: 1
+> Include_NegCtl_tracks: yes
+
+ 
+###########################################################################################################
+###########################################################################################################
+
+  DATA PROCESSING PARAMETERS
+ 
+  This section contains parameters for the best utilization of the cluster resources. Do not change them 
+  if you do not know what you are doing.
+  
+  Options for Cluster are cabernet or crick
+
+
+> Cluster: barbera
+ 
+> No_of_threads_used_in_alignment: 16
+
+  *** Cluster partitions ***
+ 
+> Crick_partitions: med
+> GC_partition: production
+
+  *** Memory allocations ***
+
+> Amt_memory_fastqc: 30G
+> Amt_memory_bwa: 30G
+> Amt_memory_macs: 30G
+> Amt_memory_bedtools: 20G
+> Amt_memory_chipqc: 20G
+ 
+###########################################################################################################
+
